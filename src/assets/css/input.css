@@ -1,0 +1,44 @@
+/* Input */
+
+label {
+  @apply text-gray-100;
+}
+
+.input {
+  @apply w-full bg-white shadow-md text-xs md:text-sm py-2 px-2 outline-secondary rounded-sm transition ease-in;
+}
+
+.input-radio {
+  @apply flex items-center bg-white shadow-sm;
+}
+
+.input-radio > input[type=radio] {
+  @apply fixed opacity-0 cursor-pointer;
+}
+
+.input-radio > input[type=radio] + label {
+  @apply p-2;
+}
+
+.input-radio > input[type=radio]:checked + label {
+  @apply bg-dark text-white transition ease-in;
+}
+
+.input-color {
+  @apply flex justify-between items-center bg-white text-dark w-28 px-1 p-1 rounded-sm shadow-sm;
+}
+
+.input-color > span {
+  @apply text-sm;
+}
+
+.style-chooser .vs__search::placeholder,
+.style-chooser .vs__dropdown-toggle,
+.style-chooser .vs__dropdown-menu {
+  @apply bg-white border-none text-dark capitalize py-1.5;
+}
+
+.style-chooser .vs__clear,
+.style-chooser .vs__open-indicator {
+  fill: #394066;
+}

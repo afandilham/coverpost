@@ -1,0 +1,13 @@
+/* Slogan */
+
+.slogan {
+  @apply flex flex-col items-center justify-center h-96;
+}
+
+.slogan > h2 {
+  @apply text-2xl font-semibold pt-4 pb-2;
+}
+
+.slogan > p {
+  @apply text-sm;
+}

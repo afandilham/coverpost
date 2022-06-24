@@ -1,0 +1,16 @@
+/* Navbar */
+
+.navbar {
+  @apply relative bg-primary p-2.5;
+}
+
+.navbar > p {
+  @apply font-semibold text-center text-white;
+}
+
+.navbar::after {
+  content: '';
+  @apply absolute top-0 right-0 w-0 h-0 border-solid border-2;
+  border-width: 0 70px 70px 0;
+  border-color: transparent #2F2D4B transparent transparent;
+}
