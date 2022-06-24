@@ -2,7 +2,7 @@
 # Coverpost (Cover blog post generator)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-Create your own cover image blog post
+Create your own cover image blog post. Why do you need to design, if you can generate from website and just click download.
 
 *Mobile and tablet viewport coming soon*
 
