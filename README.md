@@ -4,6 +4,8 @@
 
 Create your own cover image blog post
 
+*Mobile and tablet viewport coming soon*
+
 
 ## Run Locally
 
